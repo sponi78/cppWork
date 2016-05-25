@@ -23,7 +23,7 @@ srand((unsigned)time(NULL));
     //Attribute Lebenskraft und Kraft für Held werden gesetzt
     held->setzeLebenskraft( 100 );
     held->setzeKraft( 100 );
-    Ausgabe zu Kontrolle
+    //Ausgabe zu Kontrolle
     cout << "Der Held hat " << held->holeLebenskraft() << " Lebenspunkte.\n";
     cout << "Der Held hat " << held->holeKraft() << " Kraftpunkte.\n";
     //Instanz für den Kampf erstellen
